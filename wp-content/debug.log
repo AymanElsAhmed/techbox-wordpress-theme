@@ -1,0 +1,18 @@
+[20-Aug-2022 19:07:45 UTC] PHP Notice:  Trying to get property 'title' of non-object in C:\xampp\htdocs\techbox\wp-includes\class-wp-customize-nav-menus.php on line 523
+[20-Aug-2022 19:07:45 UTC] PHP Notice:  Trying to get property 'title' of non-object in C:\xampp\htdocs\techbox\wp-includes\class-wp-customize-widgets.php on line 899
+[20-Aug-2022 19:07:45 UTC] PHP Notice:  Trying to get property 'title' of non-object in C:\xampp\htdocs\techbox\wp-includes\class-wp-customize-nav-menus.php on line 1152
+[20-Aug-2022 19:13:09 UTC] PHP Notice:  Undefined offset: 1 in C:\xampp\htdocs\techbox\wp-includes\class-wp-query.php on line 3421
+[20-Aug-2022 19:18:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_post_url() in C:\xampp\htdocs\techbox\wp-content\themes\techbox\index.php:44
+Stack trace:
+#0 C:\xampp\htdocs\techbox\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\techbox\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\techbox\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\techbox\wp-content\themes\techbox\index.php on line 44
+[20-Aug-2022 19:18:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_post_link() in C:\xampp\htdocs\techbox\wp-content\themes\techbox\index.php:44
+Stack trace:
+#0 C:\xampp\htdocs\techbox\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\techbox\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\techbox\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\techbox\wp-content\themes\techbox\index.php on line 44

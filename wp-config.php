@@ -21,19 +21,19 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'database_name_here');
+define('DB_NAME', 'techbox');
 
 /** Database username */
-define('DB_USER', 'username_here');
+define('DB_USER', 'root');
 
 /** Database password */
-define('DB_PASSWORD', 'password_here');
+define('DB_PASSWORD', '');
 
 /** Database hostname */
 define('DB_HOST', 'localhost');
 
 /** Database charset to use in creating database tables. */
-define('DB_CHARSET', 'utf8');
+define('DB_CHARSET', 'utf8mb4');
 
 /** The database collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
@@ -49,14 +49,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'put your unique phrase here');
-define('SECURE_AUTH_KEY',  'put your unique phrase here');
-define('LOGGED_IN_KEY',    'put your unique phrase here');
-define('NONCE_KEY',        'put your unique phrase here');
-define('AUTH_SALT',        'put your unique phrase here');
-define('SECURE_AUTH_SALT', 'put your unique phrase here');
-define('LOGGED_IN_SALT',   'put your unique phrase here');
-define('NONCE_SALT',       'put your unique phrase here');
+define('AUTH_KEY',         '4nR`m!|*2sBWlflAO<xKyA)CMa2F>pTd7OF3+/o@4jei:PSdxBveURG=F!=g{ n{');
+define('SECURE_AUTH_KEY',  'YcAvuy2 Ui&8F>c6g0.U$8*&&?X[WwC@.o$b7YvFL.%256rg7?y/5J%]lJ6WANu_');
+define('LOGGED_IN_KEY',    'Pw1Qi![ 21/KHU`[^23+$N7+eoa#Oo7/X1*_TEnqCN_B6eNzRd<INA[mw2(+0/!f');
+define('NONCE_KEY',        '5J5L5EI,$Ix:5{{<!%.3e0hAiFc6QTM%A_8Im,5+)[I:8fhlHR0FwC<:k_X5Tn(d');
+define('AUTH_SALT',        'W15jBN*Y@%9uzo@6I1m19:]bp0<,T-CD5/{[E%>Bizx^RZ& :H2x5mDni-C40C}<');
+define('SECURE_AUTH_SALT', '<6q^Jp+xJ{gp.Y~{=,0q!!;8c*;f<V iG>XQ@Ak*7:IoF+A51#MT8#PsNq%crYbv');
+define('LOGGED_IN_SALT',   '@z5?HkE(*vb.59_]bBFLQD9b0xfxhU5v1BWvZ`$1Ggo_ GlOt-]Kg&SqP?v7C#`>');
+define('NONCE_SALT',       'y5A%W#u(;md_;E(C#YG-.K(1-h &M9hTQOqQ`UD-=W)XvLXEyt,ht.G`INzD6R2:');
 
 /**#@-*/
 
@@ -80,8 +80,9 @@ $table_prefix = 'wp_';
  *
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
-define('WP_DEBUG', false);
-
+define('WP_DEBUG', true);
+define('WP_DEBUG_LOG', true);
+define('WP_DEBUG_DISPLAY', true);
 /* Add any custom values between this line and the "stop editing" line. */
 
 
