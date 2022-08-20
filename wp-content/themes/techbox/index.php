@@ -39,11 +39,21 @@
         <?php if (have_posts()) : ?>
             <?php while (have_posts()) : the_post(); ?>
                 <div>
-                    test
+
                     <div>
-                        <?php the_shortlink() ?>
-                        <!-- <a href="">لينك</a> -->
-                        <?php the_title(); ?>
+                        <a href="<?php the_permalink() ?>">
+
+                            <?php the_title(); ?>
+                        </a>
+                        <?php
+                        // $test = the_permalink();
+                        the_post_thumbnail();
+
+                        // the_excerpt();
+                        // var_dump($test);
+
+                        ?>
+
                     </div>
 
                     <div>
